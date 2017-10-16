@@ -1,0 +1,28 @@
+.container{
+  display : flex;
+  flex-direction: column;
+}
+header{
+  border-bottom : 1px solid gray;
+  padding : 20px;
+}
+.content{
+  display: flex;
+}
+nav{
+  border-right: 1px solid gray;
+}
+aside{
+  border-left: 1px solid gray;
+}
+nav, aside{
+  flex-basis : 200px;
+  flex-shrink: 0;
+}
+footer{
+  border-top: 1px solid gray;
+  text-align: center;
+}
+main{
+  padding : 10px;
+}
